@@ -7,6 +7,7 @@ type Props = {
   onPress: () => void;
 };
 
+// Custom icon button component.
 export default function IconButton({ icon, label, onPress }: Readonly<Props>) {
   return (
     <Pressable style={styles.iconButton} onPress={onPress}>

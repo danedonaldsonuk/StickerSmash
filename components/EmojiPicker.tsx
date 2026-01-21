@@ -7,6 +7,7 @@ type Props = PropsWithChildren<{
   onClose: () => void;
 }>;
 
+// Emoji picker component that holds the available emojis.
 export default function EmojiPicker({ isVisible, children, onClose }: Props) {
   return (
     <View>

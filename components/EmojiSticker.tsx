@@ -11,6 +11,7 @@ type Props = {
   stickerSource: ImageSourcePropType;
 };
 
+// Emoji sticker component that is placed on the image.
 export default function EmojiSticker({
   imageSize,
   stickerSource,

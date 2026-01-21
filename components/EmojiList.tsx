@@ -13,6 +13,7 @@ type Props = {
   onCloseModal: () => void;
 };
 
+// Emoji list that contains all the available emojis to choose.
 export default function EmojiList({ onSelect, onCloseModal }: Readonly<Props>) {
   const [emoji] = useState<ImageSourcePropType[]>([
     require("../assets/images/emoji1.png"),

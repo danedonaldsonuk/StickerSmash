@@ -5,6 +5,7 @@ type Props = {
   imageSource: ImageSourcePropType;
 };
 
+// ImageViewer component that displays the selected image.
 export default function ImageViewer({ imageSource }: Readonly<Props>) {
   return <Image source={imageSource} style={styles.image} />;
 }

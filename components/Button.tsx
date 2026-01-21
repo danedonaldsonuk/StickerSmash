@@ -7,6 +7,7 @@ type Props = {
   onPress?: () => void;
 };
 
+// Custom button component.
 export default function Button({ label, theme, onPress }: Readonly<Props>) {
   if (theme === "primary") {
     return (

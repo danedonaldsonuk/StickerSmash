@@ -5,6 +5,7 @@ type Props = {
   onPress: () => void;
 };
 
+// Custom circle button component.
 export default function CircleButton({ onPress }: Readonly<Props>) {
   return (
     <View style={styles.circleButtonContainer}>
